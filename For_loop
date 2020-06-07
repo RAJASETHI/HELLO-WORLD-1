@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main()
+{
+  /*
+  for(condition)
+  {
+      statement
+  }
+  */
+  //FINDING SUM OF FIRST 10 NATURAL NUMBERS--USING FOR LOOP.
+  int sum=0 //Declaring the sum.
+  for(int i=1;i<=10;i++)
+  {
+    sum=sum+i;
+  }
+  printf("%d",sum);//Printing sum of the first 10 Natural Numbers.
+}
